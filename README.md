@@ -6,39 +6,27 @@
 
 # Nome do projeto
 
-## Nome do grupo
+## USPI.A.
 
 ## Integrantes: 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 5</a>
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 6</a> 
-- <a href="https://www.linkedin.com/in/victorbarq/">Nome do integrante 7</a>
+- <a href="https://www.linkedin.com/in/giovane-goffi-andreussi-20a3b1240/">Giovane Goffi Andreussi</a>
+- <a href="https://www.linkedin.com/in/jonas-viana-sales/">Jonas Viana Sales</a>
+- <a href="https://www.linkedin.com/in/kaique-ramon-6975751a3/">Kaique Ramon Nogueira Dantas</a> 
+- <a href="https://www.linkedin.com/in/renatosilvamachado/">Renato Silva Machado</a> 
+- <a href="https://www.linkedin.com/in/th%C3%A9o-tosto-7a0a9922b/">Theo Albero Tosto</a>
+- <a href="https:https://www.linkedin.com/in/vitoraugustobarros/">Vitor Augusto Menten de Barros</a>
 
 ## 📝 Descrição
 
-Curta descrição sobre o que o seu projeto faz (problema a ser resolvido e solução proposta).
+O problema a ser resolvido é a falta de padrões e a grande variabilidade da evolução do câncer de mama e sua resposta a tratamentos convencionais. Pacientes que possuem o mesmo subtipo de câncer de mama ou estão em uma mesma faixa de risco apresentam respostas diferentes a tratamentos iguais, algumas vivem mais do que o esperado e recebem alta e outras vão a óbito precocemente. A solução proposta do projeto refere-se a passar o risco do paciente de acordo com o tempo de sobrevida. O modelo irá fornecer uma classificação de acordo com o grau de prioridade e urgência da paciente com câncer de mama a partir de um sistema de cores que identificam risco alto, médio ou baixo.
+
 
 ## 📁 Estrutura de pastas
 
-```
-Alunos inteli (remover essa observação do readme.md após leitura e execução):
-
-Supondo que você é da Turma 4 e Projeto 5, substitua:
-
-T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Predictive_Model_Document.pdf
-por
-T4_G5_V01_Predictive_Model_Document.pdf
-
-Faça o mesmo para a documentação em formato DOCX.
-```
-
 |--> documentos<br>
   &emsp;| --> outros <br>
-  &emsp;| T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Predictive_Model_Document.pdf<br>
-  &emsp;| T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Predictive_Model_Document.docx<br>
+  &emsp;| T4_G5_V(VERSÃO)_Predictive_Model_Document.pdf<br>
+  &emsp;| T4_G5_V(VERSÃO)_Predictive_Model_Document.docx<br>
 |--> notebooks<br>
   &emsp;|--> T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Predictive_Model_Development.ipynb<br>
 | readme.md<br>
@@ -68,15 +56,15 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
     * Adiciona `init()`
 * 0.1.1 - 11/01/2022
     * Crash quando chama `baz()`
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.2.0 - 26/08/2022
+    * Feature Engineering (IPYNB) - Criação de Features, Transformação de Features Categóricas em Features Numéricas, Normalização de Features e Remoção de Valores em Branco
+    * Documentação da Feature Engineering + Personas e Jornadas
+* 0.1.0 - 12/08/2022
+    * Documentação do entendimento do negócio e dos dados
 
 ## 📋 Licença/License
 
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Nome do integrante 1, Nome do integrante 2, Nome do integrante 3, Nome do integrante 4, Nome do integrante 5, Nome do integrante 6, Nome do integrante 7</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">MODELO GIT INTELI</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.yggbrasil.com.br/vr">Inteli, Giovane Goffi Andreussi, Jonas Viana Sales, Kaique Ramon Nogueira Dantas, Renato Silva Machado, Theo Albero Tosto, Vitor Augusto Menten de Barros</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International</a>.</p>
 
 ## 🎓 Referências
 

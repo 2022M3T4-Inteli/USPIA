@@ -18,17 +18,19 @@
 
 ## 📝 Descrição
 
-O problema a ser resolvido é a falta de padrões e a grande variabilidade da evolução do câncer de mama e sua resposta a tratamentos convencionais. Pacientes que possuem o mesmo subtipo de câncer de mama ou estão em uma mesma faixa de risco apresentam respostas diferentes a tratamentos iguais, algumas vivem mais do que o esperado e recebem alta e outras vão a óbito precocemente. A solução proposta do projeto refere-se a passar o risco do paciente de acordo com o tempo de sobrevida. O modelo irá fornecer uma classificação de acordo com o grau de prioridade e urgência da paciente com câncer de mama a partir de um sistema de cores que identificam risco alto, médio ou baixo.
+O problema a ser resolvido é a falta de padrões e a grande variabilidade da evolução do câncer de mama e sua resposta a tratamentos convencionais. Pacientes que possuem o mesmo subtipo de câncer de mama ou estão em uma mesma faixa de risco apresentam respostas diferentes a tratamentos iguais, algumas vivem mais do que o esperado e recebem alta e outras vão a óbito precocemente. A solução proposta do projeto refere-se a passar o risco do paciente de acordo com o tempo de sobrevida. O modelo irá fornecer uma classificação de acordo com o grau de prioridade e urgência da paciente com câncer de mama a partir de um sistema de cores que identificam risco alto ou baixo.
 
 
 ## 📁 Estrutura de pastas
 
 |--> documentos<br>
   &emsp;| --> outros <br>
-  &emsp;| T4_G5_V(VERSÃO)_Predictive_Model_Document.pdf<br>
-  &emsp;| T4_G5_V(VERSÃO)_Predictive_Model_Document.docx<br>
+  &emsp;| T4_G5_V5_Predictive_Model_Document.pdf<br>
+  &emsp;| T4_G5_V5_Predictive_Model_Document.docx<br>
 |--> notebooks<br>
-  &emsp;|--> T(NUMERO_DA_TURMA)_G(NUMERO_DO_GRUPO)_V(VERSÃO)_Predictive_Model_Development.ipynb<br>
+  &emsp;|--> T4_G5_Tratamento_Dados.ipynb<br>
+  &emsp;|--> T4_G5_Avaliacao_Modelos.ipynb<br>
+  &emsp;|--> T4_G5_Modelo_Final.ipynb<br>
 | readme.md<br>
 | license.txt
 
@@ -49,13 +51,15 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
 
 ## 🗃 Histórico de lançamentos
 
-* 0.2.1 - 25/01/2022
-    * Atualização de documentos (código do módulo permanece inalterado).
-* 0.2.0 - 15/01/2022
-    * Remove `setDefaultXYZ()`
-    * Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * Crash quando chama `baz()`
+* 0.5.0 - 07/10/2022
+    * Modelo Final (IPYNB)
+    * Conclusão da documentação
+* 0.4.0 - 23/09/2022
+    * Comparação de modelos (IPYNB) 
+    * Documentação dos resultados e comparações
+* 0.3.0 - 09/09/2022
+    * Definição dos modelos e avaliação (IPYNB)
+    * Documentação dos resultados preliminares
 * 0.2.0 - 26/08/2022
     * Feature Engineering (IPYNB) - Criação de Features, Transformação de Features Categóricas em Features Numéricas, Normalização de Features e Remoção de Valores em Branco
     * Documentação da Feature Engineering + Personas e Jornadas
@@ -70,4 +74,14 @@ Para replicação (reexecução dos códigos), o botão `Open in Colab` disponí
 
 Aqui estão as referências usadas no projeto:
 
-1. <https://creativecommons.org/share-your-work/>
+1. CHAPMAN, Pete et al. CRISP-DM 1.0: Step-by-step data mining guide. SPSS inc, v. 9, n. 13, p. 1-73, 2000.
+2. JENSEN, Kenneth. Ibm spss modeler crisp-dm guide. Disponível em: IBM SPSS Modeler CRISP-DM Guide, 2016.
+3. DA SILVA, Leandro Augusto; PERES, Sarajane M.; BOSCARIOLI, Clodis. Introdução à Mineração de Dados - Com Aplicações em R: Grupo GEN, 2016. E-book. ISBN 9788595155473. Acesso em: 16 ago. 2022.
+4. FACELI, Katti; LORENA, Ana C.; GAMA, João; AL, et. Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina: Grupo GEN, 2021. E-book. ISBN 9788521637509. Acesso em: 23 ago. 2022.
+5. APRENDA como selecionar features para seu modelo de machine learning. 5 mar. 2020. 1 vídeo (31 min 30 s). Publicado pelo canal Stack. Disponível em: <https://www.youtube.com/watch?v=4RGT2YRHERY>.  Acesso em: 23 ago. 2022.
+6. EMANUEL G DE SOUZA. Entendendo o que é matriz de confusão com python. 27 mar. 2019. Disponível em: <https://medium.com/data-hackers/entendendo-o-que-é-matriz-de-confusão-com-python-114e683ec509>. Acesso em: 31 ago. 2022.
+7. REGRESSÃO logística. Disponível em: <https://matheusfacure.github.io/2017/02/25/regr-log/>. Acesso em: 7 set. 2022.
+8. ENSEMBLE learning - bagging, boosting, and stacking explained in 4 minutes! 29 mar. 2021. 1 vídeo (3 min 46 s). Publicado pelo canal ggnot2. Disponível em: <https://www.youtube.com/watch?v=eLt4a8-316E>. Acesso em: 7 set. 2022.
+9. A GENTLE introduction to pycaret for machine learning. Disponível em: <https://machinelearningmastery.com/pycaret-for-machine-learning/>. Acesso em: 20 set. 2022.
+10. PYCARET/BINARY Classification Tutorial Level Beginner - CLF101.ipynb at master · pycaret/pycaret. Disponível em: <https://github.com/pycaret/pycaret/blob/master/tutorials/Binary%20Classification%20Tutorial%20Level%20Beginner%20-%20%20CLF101.ipynb>. Acesso em: 20 set. 2022.
+
